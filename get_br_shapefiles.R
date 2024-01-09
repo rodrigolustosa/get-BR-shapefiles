@@ -23,7 +23,7 @@ dir_municip          <- "municip"
 geobr::list_geobr()
 
 # immediate regions
-rmsp_s <- read_immediate_region(code_immediate = 350001,)
+rmsp_s <- read_immediate_region(code_immediate = 350001)
 rmsp   <- read_immediate_region(code_immediate = 350001,simplified = F)
 
 # municipalities from metropolitan areas
